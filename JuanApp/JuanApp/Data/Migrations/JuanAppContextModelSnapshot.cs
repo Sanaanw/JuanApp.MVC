@@ -217,6 +217,19 @@ namespace JuanApp.Migrations
                     b.ToTable("Slider");
                 });
 
+            modelBuilder.Entity("JuanApp.Models.Setting", b =>
+                {
+                    b.Property<string>("Key")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Value")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Key");
+
+                    b.ToTable("Setting");
+                });
+
             modelBuilder.Entity("JuanApp.Models.Home.Product.Product", b =>
                 {
                     b.HasOne("JuanApp.Models.Home.Product.Category", "Category")

@@ -15,6 +15,8 @@ namespace JuanApp.Data
         public DbSet<Color> Color { get; set; }
         public DbSet<ProductColor> ProductColor { get; set; }
         public DbSet<ProductImage> ProductImage { get; set; }
+        public DbSet<Setting> Setting { get; set; }
+
 
 
         public JuanAppContext(DbContextOptions options) : base(options)

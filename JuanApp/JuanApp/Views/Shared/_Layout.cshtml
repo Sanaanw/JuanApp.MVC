@@ -1,4 +1,9 @@
-﻿<html class="no-js" lang="zxx">
+﻿@inject LayoutService layoutService;
+@{
+    var settings = layoutService.GetSettings();
+    var categories = layoutService.GetCategories();
+}
+<html class="no-js" lang="zxx">
 <!-- Mirrored from demo.hasthemes.com/juan-preview-v1/juan/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 07 Mar 2021 22:36:22 GMT -->
 <head>
     <meta charset="utf-8" />
@@ -8,8 +13,8 @@
     <title>Juan - Shoes Store HTML Template</title>
     <!--=== Favicon ===-->
     <link rel="shortcut icon"
-          href="assets/img/favicon.ico"
-          type="image/x-icon" />
+    href="assets/img/favicon.ico"
+    type="image/x-icon" />
     <!--=== All Plugins CSS ===-->
     <link href="~/assets/css/plugins.css" rel="stylesheet" />
     <!--=== All Vendor CSS ===-->
@@ -20,8 +25,8 @@
     <script src="~/assets/js/modernizr-2.8.3.min.js"></script>
 
     <!--[if lt IE 9]>
-      <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
 
@@ -510,11 +515,11 @@
                         <li>
                             <div class="dropdown mobile-top-dropdown">
                                 <a href="#"
-                                   class="dropdown-toggle"
-                                   id="currency"
-                                   data-toggle="dropdown"
-                                   aria-haspopup="true"
-                                   aria-expanded="false">
+                                class="dropdown-toggle"
+                                id="currency"
+                                data-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false">
                                     Currency
                                     <i class="fa fa-angle-down"></i>
                                 </a>
@@ -527,11 +532,11 @@
                         <li>
                             <div class="dropdown mobile-top-dropdown">
                                 <a href="#"
-                                   class="dropdown-toggle"
-                                   id="myaccount"
-                                   data-toggle="dropdown"
-                                   aria-haspopup="true"
-                                   aria-expanded="false">
+                                class="dropdown-toggle"
+                                id="myaccount"
+                                data-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false">
                                     My Account
                                     <i class="fa fa-angle-down"></i>
                                 </a>
@@ -576,50 +581,47 @@
     <!-- off-canvas menu end -->
 
 
-@RenderBody()
+    @RenderBody()
 
-<!-- Start Footer Area Wrapper -->
-<footer class="footer-wrapper">
-    <!-- footer main area start -->
-    <div class="footer-widget-area section-padding">
-        <div class="container">
-            <div class="row mtn-40">
-                <!-- footer widget item start -->
-                <div class="col-xl-5 col-lg-3 col-md-6">
-                    <div class="widget-item mt-40">
-                        <h5 class="widget-title">My Account</h5>
-                        <div class="widget-body">
-                            <ul class="location-wrap">
-                                <li>
-                                    <i class="ion-ios-location-outline"></i>184 Main Rd E, St
-                                    Albans VIC 3021, Australia
-                                </li>
-                                <li>
-                                    <i class="ion-ios-email-outline"></i>Mail Us:
-                                    <a href="mailto:yourmail@gmail.com">yourmail@gmail.com</a>
-                                </li>
-                                <li>
-                                    <i class="ion-ios-telephone-outline"></i>Phone:
-                                    <a href="%2b0025425456554">+ 00 254 254565</a>
-                                </li>
-                            </ul>
+    <!-- Start Footer Area Wrapper -->
+    <footer class="footer-wrapper">
+        <!-- footer main area start -->
+        <div class="footer-widget-area section-padding">
+            <div class="container">
+                <div class="row mtn-40">
+                    <!-- footer widget item start -->
+                    <div class="col-xl-5 col-lg-3 col-md-6">
+                        <div class="widget-item mt-40">
+                            <h5 class="widget-title">My Account</h5>
+                            <div class="widget-body">
+                                <ul class="location-wrap">
+                                    <li>
+                                        <i class="ion-ios-location-outline"></i>@settings.FirstOrDefault(x=>x.Key=="Location").Value
+                                    </li>
+                                    <li>
+                                        <i class="ion-ios-email-outline"></i>Mail Us:
+                                        <a href="mailto:yourmail@gmail.com">@settings.FirstOrDefault(x => x.Key == "Gmail").Value</a>
+                                    </li>
+                                    <li>
+                                        <i class="ion-ios-telephone-outline"></i>Phone:
+                                        <a href="%2b0025425456554">@settings.FirstOrDefault(x => x.Key == "Phone").Value</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!-- footer widget item end -->
-                <!-- footer widget item start -->
-                <div class="col-xl-2 col-lg-3 col-md-6">
-                    <div class="widget-item mt-40">
-                        <h5 class="widget-title">Categories</h5>
-                        <div class="widget-body">
-                            <ul class="useful-link">
-                                <li><a href="#">Ecommerce</a></li>
-                                <li><a href="#">Shopify</a></li>
-                                <li><a href="#">Prestashop</a></li>
-                                <li><a href="#">Opencart</a></li>
-                                <li><a href="#">Magento</a></li>
-                                <li><a href="#">Jigoshop</a></li>
-                            </ul>
+                    <!-- footer widget item end -->
+                    <!-- footer widget item start -->
+                    <div class="col-xl-2 col-lg-3 col-md-6">
+                        <div class="widget-item mt-40">
+                            <h5 class="widget-title">Categories</h5>
+                            <div class="widget-body">
+                                <ul class="useful-link">
+                                    @foreach(var c in categories)
+                                    {
+                                        <li><a href="#">@c.Name</a></li>
+                                    }
+                                </ul>
                         </div>
                     </div>
                 </div>

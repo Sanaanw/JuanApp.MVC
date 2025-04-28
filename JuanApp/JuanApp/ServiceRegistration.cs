@@ -1,5 +1,6 @@
 ﻿using JuanApp.Data;
 using Microsoft.EntityFrameworkCore;
+using PustokApp.Services;
 
 namespace JuanApp
 {
@@ -13,6 +14,7 @@ namespace JuanApp
             {
                 options.UseSqlServer(config.GetConnectionString("DefaultConnection"));
             });
+            services.AddScoped<LayoutService>();
         }
     }
 }
