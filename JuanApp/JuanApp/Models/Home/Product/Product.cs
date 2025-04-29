@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using PustokApp.Areas.Manage.Attributes;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace JuanApp.Models.Home.Product
@@ -18,5 +19,13 @@ namespace JuanApp.Models.Home.Product
         public List<ProductTag> ProductTags { get; set; }
         public List<ProductColor> ProductColors { get; set; }
         public List<ProductImage> ProductImages { get; set; }
+        [NotMapped]
+        [AllowedType("image/jpeg", "image/png")]
+        [AllowedLength(2 * 1024 * 1024)]
+        public List<IFormFile> Files { get; set; }
+        [NotMapped]
+        [AllowedType("image/jpeg", "image/png")]
+        [AllowedLength(2 * 1024 * 1024)]
+        public IFormFile MainFile { get; set; }
     }
 }

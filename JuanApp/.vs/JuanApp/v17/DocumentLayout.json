@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|c:\\users\\asus\\onedrive\\desktop\\jaunapp(mvc)\\juanapp\\juanapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|c:\\users\\asus\\onedrive\\desktop\\jaunapp(mvc)\\juanapp\\juanapp\\areas\\manage\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\areas\\manage\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|c:\\users\\asus\\onedrive\\desktop\\jaunapp(mvc)\\juanapp\\juanapp\\services\\layoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\services\\layoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|c:\\users\\asus\\onedrive\\desktop\\jaunapp(mvc)\\juanapp\\juanapp\\models\\home\\product\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\models\\home\\product\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|c:\\users\\asus\\onedrive\\desktop\\jaunapp(mvc)\\juanapp\\juanapp\\data\\juanappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\data\\juanappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|c:\\users\\asus\\onedrive\\desktop\\jaunapp(mvc)\\juanapp\\juanapp\\areas\\manage\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\areas\\manage\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|c:\\users\\asus\\onedrive\\desktop\\jaunapp(mvc)\\juanapp\\juanapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|c:\\users\\asus\\onedrive\\desktop\\jaunapp(mvc)\\juanapp\\juanapp\\areas\\manage\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\areas\\manage\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,32 +26,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "JuanAppContext.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\Data\\JuanAppContext.cs",
-              "RelativeDocumentMoniker": "JuanApp\\Data\\JuanAppContext.cs",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\Data\\JuanAppContext.cs",
-              "RelativeToolTip": "JuanApp\\Data\\JuanAppContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\Models\\Home\\Product\\Product.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Models\\Home\\Product\\Product.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\Models\\Home\\Product\\Product.cs",
+              "RelativeToolTip": "JuanApp\\Models\\Home\\Product\\Product.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBwAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T22:59:10.463Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "JuanApp\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "JuanApp\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAFYCAAAAAAAAAADwv20CAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-28T22:54:28.593Z",
+              "WhenOpened": "2025-04-29T08:50:53.473Z",
               "EditorCaption": ""
             },
             {
@@ -60,28 +47,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LayoutService.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\Services\\LayoutService.cs",
-              "RelativeDocumentMoniker": "JuanApp\\Services\\LayoutService.cs",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\Services\\LayoutService.cs",
-              "RelativeToolTip": "JuanApp\\Services\\LayoutService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T22:53:17.833Z",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "JuanApp\\Areas\\Manage\\Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "JuanApp\\Areas\\Manage\\Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T08:43:57.783Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "JuanApp\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "JuanApp\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABOAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "JuanApp\\Areas\\Manage\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "JuanApp\\Areas\\Manage\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T07:22:49.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\Areas\\Manage\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Areas\\Manage\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\Areas\\Manage\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "JuanApp\\Areas\\Manage\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAcwB8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T22:53:14.146Z",
+              "WhenOpened": "2025-04-29T07:22:22.963Z",
               "EditorCaption": ""
             }
           ]
