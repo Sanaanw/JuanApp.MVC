@@ -5,186 +5,6 @@
       "PackagePath": "staticwebassets\\JuanApp.ysi309wuk5.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\images\\ui-icons_444444_256x240.png",
-      "PackagePath": "staticwebassets\\assets\\css\\images\\ui-icons_444444_256x240.png"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\images\\ui-icons_555555_256x240.png",
-      "PackagePath": "staticwebassets\\assets\\css\\images\\ui-icons_555555_256x240.png"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\images\\ui-icons_777620_256x240.png",
-      "PackagePath": "staticwebassets\\assets\\css\\images\\ui-icons_777620_256x240.png"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\images\\ui-icons_777777_256x240.png",
-      "PackagePath": "staticwebassets\\assets\\css\\images\\ui-icons_777777_256x240.png"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\images\\ui-icons_cc0000_256x240.png",
-      "PackagePath": "staticwebassets\\assets\\css\\images\\ui-icons_cc0000_256x240.png"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\images\\ui-icons_ffffff_256x240.png",
-      "PackagePath": "staticwebassets\\assets\\css\\images\\ui-icons_ffffff_256x240.png"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\landing.css",
-      "PackagePath": "staticwebassets\\assets\\css\\landing.css"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\plugins.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins.css"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\plugins\\animate.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\animate.min.css"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\plugins\\autoFill.bootstrap5.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\autoFill.bootstrap5.min.css"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\plugins\\bootstrap-slider.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\bootstrap-slider.min.css"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\plugins\\bootstrap-switch-button.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\bootstrap-switch-button.min.css"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\plugins\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\bootstrap.min.css"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\plugins\\buttons.bootstrap5.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\buttons.bootstrap5.min.css"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\plugins\\colReorder.bootstrap5.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\colReorder.bootstrap5.min.css"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\plugins\\croppr.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\croppr.min.css"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\plugins\\dataTables.bootstrap5.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\dataTables.bootstrap5.min.css"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\plugins\\datepicker-bs5.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\datepicker-bs5.min.css"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\plugins\\dragula.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\dragula.min.css"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\plugins\\dropzone.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\dropzone.min.css"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\plugins\\fixedColumns.bootstrap5.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\fixedColumns.bootstrap5.min.css"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\plugins\\fixedHeader.bootstrap5.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\fixedHeader.bootstrap5.min.css"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\plugins\\flatpickr.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\flatpickr.min.css"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\plugins\\introjs.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\introjs.min.css"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\plugins\\jsvectormap.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\jsvectormap.min.css"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\plugins\\keyTable.bootstrap5.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\keyTable.bootstrap5.min.css"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\plugins\\notifier.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\notifier.css"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\plugins\\nouislider.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\nouislider.min.css"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\plugins\\prism-coy.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\prism-coy.css"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\plugins\\quill.bubble.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\quill.bubble.css"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\plugins\\quill.core.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\quill.core.css"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\plugins\\quill.snow.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\quill.snow.css"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\plugins\\responsive.bootstrap5.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\responsive.bootstrap5.min.css"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\plugins\\rowReorder.bootstrap5.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\rowReorder.bootstrap5.min.css"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\plugins\\scroller.bootstrap5.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\scroller.bootstrap5.min.css"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\plugins\\select.bootstrap5.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\select.bootstrap5.min.css"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\plugins\\simplemde.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\simplemde.min.css"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\plugins\\style.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\style.css"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\plugins\\tiny-slider.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\tiny-slider.css"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\plugins\\uppy.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\uppy.min.css"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\plugins\\vanillatree.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\vanillatree.css"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\style-preset.css",
-      "PackagePath": "staticwebassets\\assets\\css\\style-preset.css"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\style.css",
-      "PackagePath": "staticwebassets\\assets\\css\\style.css"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\uikit.css",
-      "PackagePath": "staticwebassets\\assets\\css\\uikit.css"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\css\\vendor.css",
-      "PackagePath": "staticwebassets\\assets\\css\\vendor.css"
-    },
-    {
       "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\fonts\\feather.css",
       "PackagePath": "staticwebassets\\assets\\fonts\\feather.css"
     },
@@ -1301,6 +1121,14 @@
       "PackagePath": "staticwebassets\\assets\\img\\paypal-card.jpg"
     },
     {
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\img\\product\\12c9db3b-6114-4234-bbec-a7af5542711e.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\12c9db3b-6114-4234-bbec-a7af5542711e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\img\\product\\ef666ec7-4d29-4e44-892c-f6864909a36b.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\ef666ec7-4d29-4e44-892c-f6864909a36b.jpg"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\img\\product\\pro-small-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\product\\pro-small-1.jpg"
     },
@@ -1363,10 +1191,6 @@
     {
       "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\img\\product\\product-9.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\product\\product-9.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\img\\product\\product-details-img1.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\product\\product-details-img1.jpg"
     },
     {
       "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JaunApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\img\\product\\product-details-img2.jpg",

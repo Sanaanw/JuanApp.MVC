@@ -51,9 +51,12 @@
             <div class="navbar-content">
                 <ul class="pc-navbar">
                     <li class="pc-item">
-                        <a href="../dashboard/index.html" class="pc-link">
+                        <a asp-controller="DashBoard" asp-action="Index" class="pc-link">
                             <span class="pc-micon"><i class="ti ti-dashboard"></i></span>
                             <span class="pc-mtext">Dashboard</span>
+                        </a>
+                        <a asp-controller="Product" asp-action="Index" class="pc-link">
+                            <span class="pc-mtext">Product</span>
                         </a>
                     </li>
 
