@@ -8176,13 +8176,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\JuanApp.ysi309wuk5.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-8sX3i9HnIjkfuzmWk/N9ppD8Y1Rv\u002BM6nuzxj8htimoI="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1125"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00228sX3i9HnIjkfuzmWk/N9ppD8Y1Rv\u002BM6nuzxj8htimoI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Apr 2025 04:11:27 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1125"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00228sX3i9HnIjkfuzmWk/N9ppD8Y1Rv\u002BM6nuzxj8htimoI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Apr 2025 13:19:54 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/JuanApp/JuanApp.ysi309wuk5.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\JuanApp.ysi309wuk5.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ysi309wuk5"},{"Name":"integrity","Value":"sha256-8sX3i9HnIjkfuzmWk/N9ppD8Y1Rv\u002BM6nuzxj8htimoI="},{"Name":"label","Value":"_content/JuanApp/JuanApp.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1125"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00228sX3i9HnIjkfuzmWk/N9ppD8Y1Rv\u002BM6nuzxj8htimoI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Apr 2025 04:11:27 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1125"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00228sX3i9HnIjkfuzmWk/N9ppD8Y1Rv\u002BM6nuzxj8htimoI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Apr 2025 13:19:54 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/JuanApp/manage/css/landing.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\manage\css\landing.css'))</AssetFile>

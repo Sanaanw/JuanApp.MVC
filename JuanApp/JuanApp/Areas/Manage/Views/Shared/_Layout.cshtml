@@ -66,18 +66,11 @@
                         <i class="ti ti-news"></i>
                     </li>
                     <li class="pc-item">
-                        <a href="../pages/login.html" class="pc-link">
+                        <a asp-controller="Account" asp-action="Login" class="pc-link">
                             <span class="pc-micon"><i class="ti ti-lock"></i></span>
                             <span class="pc-mtext">Login</span>
                         </a>
                     </li>
-                    <li class="pc-item">
-                        <a href="../pages/register.html" class="pc-link">
-                            <span class="pc-micon"><i class="ti ti-user-plus"></i></span>
-                            <span class="pc-mtext">Register</span>
-                        </a>
-                    </li>
-
                     <li class="pc-item pc-caption">
                         <label>Other</label>
                         <i class="ti ti-brand-chrome"></i>
@@ -268,7 +261,10 @@
                            data-bs-auto-close="outside"
                            aria-expanded="false">
                             <img src="~/manage/images/user/avatar-2.jpg" alt="user-image" class="user-avtar">
-                                <span>@User.Identity.Name</span>
+                            @if (User.Identity.IsAuthenticated && User.IsInRole("Admin") || User.Identity.IsAuthenticated && User.IsInRole("SuperAdmin"))
+                            {
+                                <span>@User.Identity.Name </span>
+                            }
                         </a>
                         <div class="dropdown-menu dropdown-user-profile dropdown-menu-end pc-h-dropdown">
                             <div class="dropdown-header">
