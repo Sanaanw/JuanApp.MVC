@@ -277,8 +277,6 @@ wwwroot\assets\img\icon\policy-2.png
 wwwroot\assets\img\icon\policy-3.png
 wwwroot\assets\img\logo\logo.png
 wwwroot\assets\img\paypal-card.jpg
-wwwroot\assets\img\product\12c9db3b-6114-4234-bbec-a7af5542711e.jpg
-wwwroot\assets\img\product\ef666ec7-4d29-4e44-892c-f6864909a36b.jpg
 wwwroot\assets\img\product\product-1.jpg
 wwwroot\assets\img\product\product-10.jpg
 wwwroot\assets\img\product\product-11.jpg

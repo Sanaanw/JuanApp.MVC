@@ -12,6 +12,7 @@ namespace JuanApp.Models.Home.Product
         [Column(TypeName = "decimal(18,2)")]
         public decimal Price { get; set; }
         [Required]
+        [MinLength(30)]
         public string Desc { get; set; }
         public bool InStock { get; set; }
         public int CategoryId { get; set; }

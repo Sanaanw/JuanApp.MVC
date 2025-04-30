@@ -1,11 +1,12 @@
 ﻿using JuanApp.Models;
 using JuanApp.Models.Home;
 using JuanApp.Models.Home.Product;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace JuanApp.Data
 {
-    public class JuanAppContext : DbContext
+    public class JuanAppContext : IdentityDbContext<AppUser>
     {
         public DbSet<Slider> Slider { get; set; }
         public DbSet<Product> Product { get; set; }
@@ -17,7 +18,7 @@ namespace JuanApp.Data
         public DbSet<ProductImage> ProductImage { get; set; }
         public DbSet<Setting> Setting { get; set; }
 
-
+        public DbSet<AppUser> AppUser { get; set; }
 
         public JuanAppContext(DbContextOptions options) : base(options)
         {
