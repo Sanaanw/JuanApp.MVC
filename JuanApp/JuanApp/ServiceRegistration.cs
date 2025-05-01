@@ -1,5 +1,7 @@
 ﻿using JuanApp.Data;
 using JuanApp.Models;
+using JuanApp.Services;
+using JuanApp.Settings;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using PustokApp.Services;
@@ -17,6 +19,8 @@ namespace JuanApp
                 options.UseSqlServer(config.GetConnectionString("DefaultConnection"));
             });
             services.AddScoped<LayoutService>();
+            services.AddScoped<EmailService>();
+            services.Configure<EmailSetting>(config.GetSection("EmailSettings"));
             services.AddIdentity<AppUser, IdentityRole>(options =>
             {
                 options.Password.RequireDigit = true;
@@ -28,7 +32,7 @@ namespace JuanApp
                 options.Lockout.MaxFailedAccessAttempts = 3;
                 options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
                 options.Lockout.AllowedForNewUsers = true;
-            }).AddEntityFrameworkStores<JuanAppContext>();
+            }).AddEntityFrameworkStores<JuanAppContext>().AddDefaultTokenProviders();
 
             services.AddControllers()
 .AddJsonOptions(opt =>

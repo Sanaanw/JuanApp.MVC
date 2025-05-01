@@ -39,7 +39,7 @@
                     <div class="col-lg-6">
                         <div class="login-reg-form-wrap">
                             <h2>Sign In</h2>
-                            <form action="#" method="post">
+                            <form method="post">
                                 <div class="single-input-item">
                                     <label asp-for="UserNameOrEmail"></label>
                                     <input asp-for="UserNameOrEmail" placeholder="Enter your User name or Email" required />
@@ -81,3 +81,7 @@
 </main>
 
 <script src="~/assets/js/vendor.js"></script>
+
+@section Scripts {
+    @Html.Partial("_ValidationScriptsPartial")
+}
