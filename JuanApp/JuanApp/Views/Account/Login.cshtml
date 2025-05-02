@@ -54,9 +54,9 @@
                                     <div class="login-reg-form-meta d-flex align-items-center justify-content-between">
                                         <div class="remember-meta">
                                             <div class="custom-control custom-checkbox">
-                                                <label asp-for="RememberMe" class="custom-control-label" for="rememberMe">Remember Me</label>
+                                                <label asp-for="RememberMe"></label>
+                                                <input asp-for="RememberMe">
                                                 <span asp-validation-for="RememberMe"></span>
-                                                <input asp-for="RememberMe" type="checkbox" class="custom-control-input" id="rememberMe">
                                                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                                             </div>
                                         </div>

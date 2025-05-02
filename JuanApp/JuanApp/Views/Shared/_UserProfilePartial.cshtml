@@ -3,12 +3,14 @@
     <div class="row">
         <div class="col-lg-6">
             <div class="single-input-item">
+                <label asp-for="UserName"></label>
                 <input asp-for="UserName" type="text" placeholder="User Name" />
                 <span asp-validation-for="UserName" class="text-danger"> </span>
             </div>
         </div>
         <div class="col-lg-6">
             <div class="single-input-item">
+                <label asp-for="Email"></label>
                 <input asp-for="Email" type="email" placeholder="Email Name" />
                 <span asp-validation-for="Email" class="text-danger"> </span>
             </div>
@@ -17,18 +19,21 @@
     <fieldset>
         <legend>Password change</legend>
         <div class="single-input-item">
+            <label asp-for="CurrentPassword"></label>
             <input asp-for="CurrentPassword" placeholder="Current password">
             <span asp-validation-for="CurrentPassword" class="text-danger"> </span>
         </div>
         <div class="row">
             <div class="col-lg-6">
                 <div class="single-input-item">
+                    <label asp-for="NewPassword"></label>
                     <input asp-for="NewPassword" placeholder="New password">
                     <span asp-validation-for="NewPassword" class="text-danger"> </span>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="single-input-item">
+                    <label asp-for="ConfirmPassword"></label>
                     <input asp-for="ConfirmPassword" placeholder="Confirm password">
                     <span asp-validation-for="ConfirmPassword" class="text-danger"> </span>
                 </div>

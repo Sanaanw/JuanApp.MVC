@@ -186,6 +186,7 @@ namespace JuanApp.Controllers
         }
 
         //Profile
+        [Authorize(Roles = "Member" )]
         public async Task<IActionResult> Profile(string tab = "Dashboard")
         {
             ViewBag.tab = tab;
