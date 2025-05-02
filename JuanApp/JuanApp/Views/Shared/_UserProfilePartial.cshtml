@@ -1,0 +1,46 @@
+﻿@model UserUpdateProfileVm
+<form method="post" action="#">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="single-input-item">
+                <input asp-for="UserName" type="text" placeholder="User Name" />
+                <span asp-validation-for="UserName" class="text-danger"> </span>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="single-input-item">
+                <input asp-for="Email" type="email" placeholder="Email Name" />
+                <span asp-validation-for="Email" class="text-danger"> </span>
+            </div>
+        </div>
+    </div>
+    <fieldset>
+        <legend>Password change</legend>
+        <div class="single-input-item">
+            <input asp-for="CurrentPassword" placeholder="Current password">
+            <span asp-validation-for="CurrentPassword" class="text-danger"> </span>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="single-input-item">
+                    <input asp-for="NewPassword" placeholder="New password">
+                    <span asp-validation-for="NewPassword" class="text-danger"> </span>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="single-input-item">
+                    <input asp-for="ConfirmPassword" placeholder="Confirm password">
+                    <span asp-validation-for="ConfirmPassword" class="text-danger"> </span>
+                </div>
+            </div>
+        </div>
+    </fieldset>
+    <div class="single-input-item">
+        <button type="submit" class="btn">Save Changes</button>
+    </div>
+</form>
+<div asp-validation-summary="ModelOnly" class="text-danger">
+</div>
+@section Scripts {
+    @Html.Partial("_ValidationScriptsPartial")
+}

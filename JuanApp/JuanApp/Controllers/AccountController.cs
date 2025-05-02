@@ -3,6 +3,7 @@ using JuanApp.Models;
 using JuanApp.Services;
 using JuanApp.Settings;
 using JuanApp.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
@@ -26,6 +27,7 @@ namespace JuanApp.Controllers
         {
             return View();
         }
+        [HttpPost]
         public async Task<IActionResult> Register(UserRegisterVm userRegisterVm)
         {
             if (!ModelState.IsValid)
@@ -67,6 +69,7 @@ namespace JuanApp.Controllers
         {
             return View();  
         }
+        [HttpPost]
         public async Task<IActionResult> Login(UserLoginVm userLoginVm, string returnUrl)
         {
             if (!ModelState.IsValid)
@@ -183,9 +186,79 @@ namespace JuanApp.Controllers
         }
 
         //Profile
-        public async Task<IActionResult> Profile()
+        public async Task<IActionResult> Profile(string tab = "Dashboard")
         {
-            return View();
+            ViewBag.tab = tab;
+            var user = await userManager.GetUserAsync(User);
+            if (user == null)
+                return NotFound();
+            var userUpdateProfileVm = new UserUpdateProfileVm
+            {
+                FullName = user.FullName,
+                UserName = user.UserName,
+                Email = user.Email
+            };
+            var userProfileVm = new UserProfileVm
+            {
+                UserUpdateProfileVm = userUpdateProfileVm,
+            };
+            return View(userProfileVm);
+        }
+        [HttpPost]
+        [Authorize(Roles = "Member")]
+        public async Task<IActionResult> Profile(UserUpdateProfileVm userUpdateProfileVm, string tab = "Profile")
+        {
+            ViewBag.tab = tab;
+            var user = await userManager.GetUserAsync(User);
+            if (user == null)
+                return NotFound();
+            UserProfileVm userProfileVm = new UserProfileVm
+            {
+                UserUpdateProfileVm = userUpdateProfileVm,
+            };
+
+
+            if (userUpdateProfileVm.NewPassword != null)
+            {
+                if (userUpdateProfileVm.CurrentPassword == null)
+                {
+                    ModelState.AddModelError("CurrentPassword", "Current password is required");
+                    return View(userProfileVm);
+                }
+                else
+                {
+                    if (userUpdateProfileVm.NewPassword == null)
+                    {
+                        ModelState.AddModelError("NewPassword", "New password is required");
+                        return View(userProfileVm);
+                    }
+                    var passwordUpdateResult = await userManager.ChangePasswordAsync(user, userUpdateProfileVm.CurrentPassword, userUpdateProfileVm.NewPassword);
+                    if (!passwordUpdateResult.Succeeded)
+                    {
+                        foreach (var error in passwordUpdateResult.Errors)
+                        {
+                            ModelState.AddModelError("", error.Description);
+                        }
+                        return View(userProfileVm);
+                    }
+                }
+            }
+            user.FullName = userUpdateProfileVm.FullName;
+            user.UserName = userUpdateProfileVm.UserName;
+            user.Email = userUpdateProfileVm.Email;
+            var result = await userManager.UpdateAsync(user);
+            if (!result.Succeeded)
+            {
+                foreach (var error in result.Errors)
+                {
+                    ModelState.AddModelError("", error.Description);
+                }
+                return View(userProfileVm);
+            }
+            await signInManager.SignInAsync(user, true);
+            if (!ModelState.IsValid)
+                return View(userProfileVm);
+            return RedirectToAction("Index", "Home");
         }
     } 
 }

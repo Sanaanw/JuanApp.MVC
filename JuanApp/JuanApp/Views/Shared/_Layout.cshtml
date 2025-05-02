@@ -283,8 +283,12 @@
                                             </a>
                                             <ul class="dropdown-list">
                                                 <li><a asp-controller="Account" asp-action="Login" >login</a></li>
-                                                <li><a asp-controller="Account" asp-action="Login">register</a></li>
-                                                <li><a href="my-account.html">my account</a></li>
+                                                <li><a asp-controller="Account" asp-action="Register">register</a></li>
+                                                @if (User.Identity.IsAuthenticated)
+                                                    {
+                                                        <li><a asp-controller="Account" asp-action="Profile">My Account</a></li>
+                                                    }
+
                                             </ul>
                                         </li>
                                         <li>

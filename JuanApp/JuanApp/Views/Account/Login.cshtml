@@ -60,11 +60,11 @@
                                                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                                             </div>
                                         </div>
-                                        <a href="#" class="forget-pwd">Forget Password?</a>
+                                        <a asp-controller="Account" asp-action="ForgetPassword" class="forget-pwd">Forget Password?</a>
                                     </div>
                                 </div>
                                 <div class="single-input-item">
-                                    <button class="btn">Login</button>
+                                    <button type="submit" class="btn">Login</button>
                                     <a style="margin-left:30px;font-size:17px" asp-controller="Account" asp-action="Register" class="forget-pwd">Register</a>
 
                                 </div>

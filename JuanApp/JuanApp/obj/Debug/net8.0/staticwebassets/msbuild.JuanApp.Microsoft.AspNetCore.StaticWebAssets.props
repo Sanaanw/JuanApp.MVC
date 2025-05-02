@@ -12234,8 +12234,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>1o84ho7i5b</Fingerprint>
-      <Integrity>4QXB2tust2YKuExr3QAt5R9HATDk156DCHY8+tgrQJQ=</Integrity>
+      <Fingerprint>frydgcgdww</Fingerprint>
+      <Integrity>O/EdD9e9C09xl9QaVk4pCZhZ3DCAbd9nDlwxLTxM4MU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Templates\forgotpassword.html'))</OriginalItemSpec>

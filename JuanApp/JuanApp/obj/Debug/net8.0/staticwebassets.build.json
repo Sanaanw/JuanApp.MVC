@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "l0IKhRFtXVQBVNtBOIRWmAHn3GrfiGZougINyw7a2Yc=",
+  "Hash": "xr1speUNo8lK6NjJfA/EKK3DbSarRHUXe1rehaJs5/4=",
   "Source": "JuanApp",
   "BasePath": "_content/JuanApp",
   "Mode": "Default",
@@ -14311,8 +14311,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "1o84ho7i5b",
-      "Integrity": "4QXB2tust2YKuExr3QAt5R9HATDk156DCHY8+tgrQJQ=",
+      "Fingerprint": "frydgcgdww",
+      "Integrity": "O/EdD9e9C09xl9QaVk4pCZhZ3DCAbd9nDlwxLTxM4MU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Templates\\forgotpassword.html"
@@ -70101,7 +70101,7 @@
       ]
     },
     {
-      "Route": "Templates/forgotpassword.1o84ho7i5b.html",
+      "Route": "Templates/forgotpassword.frydgcgdww.html",
       "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\Templates\\forgotpassword.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -70111,7 +70111,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10343"
+          "Value": "10341"
         },
         {
           "Name": "Content-Type",
@@ -70119,11 +70119,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4QXB2tust2YKuExr3QAt5R9HATDk156DCHY8+tgrQJQ=\""
+          "Value": "\"O/EdD9e9C09xl9QaVk4pCZhZ3DCAbd9nDlwxLTxM4MU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 16:35:10 GMT"
+          "Value": "Fri, 02 May 2025 12:40:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -70133,7 +70133,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1o84ho7i5b"
+          "Value": "frydgcgdww"
         },
         {
           "Name": "label",
@@ -70141,7 +70141,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-4QXB2tust2YKuExr3QAt5R9HATDk156DCHY8+tgrQJQ="
+          "Value": "sha256-O/EdD9e9C09xl9QaVk4pCZhZ3DCAbd9nDlwxLTxM4MU="
         }
       ]
     },
@@ -70156,7 +70156,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10343"
+          "Value": "10341"
         },
         {
           "Name": "Content-Type",
@@ -70164,11 +70164,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4QXB2tust2YKuExr3QAt5R9HATDk156DCHY8+tgrQJQ=\""
+          "Value": "\"O/EdD9e9C09xl9QaVk4pCZhZ3DCAbd9nDlwxLTxM4MU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 16:35:10 GMT"
+          "Value": "Fri, 02 May 2025 12:40:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -70178,7 +70178,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4QXB2tust2YKuExr3QAt5R9HATDk156DCHY8+tgrQJQ="
+          "Value": "sha256-O/EdD9e9C09xl9QaVk4pCZhZ3DCAbd9nDlwxLTxM4MU="
         }
       ]
     },

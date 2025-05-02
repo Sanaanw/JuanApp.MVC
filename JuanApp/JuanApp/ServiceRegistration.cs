@@ -20,7 +20,7 @@ namespace JuanApp
             });
             services.AddScoped<LayoutService>();
             services.AddScoped<EmailService>();
-            services.Configure<EmailSetting>(config.GetSection("EmailSettings"));
+            services.Configure<EmailSetting>(config.GetSection("EmailSetting"));
             services.AddIdentity<AppUser, IdentityRole>(options =>
             {
                 options.Password.RequireDigit = true;

@@ -12,7 +12,7 @@ namespace JuanApp.ViewModels
         [DataType(DataType.Password)]
         public string NewPassword { get; set; }
         [Required]
-        [Compare("Password", ErrorMessage = "Passwords do not match")]
+        [Compare("NewPassword", ErrorMessage = "Passwords do not match")]
         [DataType(DataType.Password)]
         public string ConfirmPassword { get; set; }
         public string Token { get; set; }

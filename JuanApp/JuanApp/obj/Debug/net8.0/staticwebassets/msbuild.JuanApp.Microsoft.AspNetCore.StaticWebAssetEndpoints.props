@@ -8148,17 +8148,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"l004wl0die"},{"Name":"integrity","Value":"sha256-61JW94mdKAeB0RWaeMt/JsPfh402HqsNKzHUOvm1hNs="},{"Name":"label","Value":"_content/JuanApp/manage/json/typehead/nhl.json"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1037"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u002261JW94mdKAeB0RWaeMt/JsPfh402HqsNKzHUOvm1hNs=\u0022"},{"Name":"Last-Modified","Value":"Thu, 20 Feb 2025 07:22:18 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/JuanApp/Templates/forgotpassword.1o84ho7i5b.html">
+    <StaticWebAssetEndpoint Include="_content/JuanApp/Templates/forgotpassword.frydgcgdww.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Templates\forgotpassword.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1o84ho7i5b"},{"Name":"integrity","Value":"sha256-4QXB2tust2YKuExr3QAt5R9HATDk156DCHY8\u002BtgrQJQ="},{"Name":"label","Value":"_content/JuanApp/Templates/forgotpassword.html"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10343"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u00224QXB2tust2YKuExr3QAt5R9HATDk156DCHY8\u002BtgrQJQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 29 Apr 2025 16:35:10 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"frydgcgdww"},{"Name":"integrity","Value":"sha256-O/EdD9e9C09xl9QaVk4pCZhZ3DCAbd9nDlwxLTxM4MU="},{"Name":"label","Value":"_content/JuanApp/Templates/forgotpassword.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10341"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022O/EdD9e9C09xl9QaVk4pCZhZ3DCAbd9nDlwxLTxM4MU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 02 May 2025 12:40:10 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/JuanApp/Templates/forgotpassword.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Templates\forgotpassword.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4QXB2tust2YKuExr3QAt5R9HATDk156DCHY8\u002BtgrQJQ="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"10343"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u00224QXB2tust2YKuExr3QAt5R9HATDk156DCHY8\u002BtgrQJQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 29 Apr 2025 16:35:10 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-O/EdD9e9C09xl9QaVk4pCZhZ3DCAbd9nDlwxLTxM4MU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"10341"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022O/EdD9e9C09xl9QaVk4pCZhZ3DCAbd9nDlwxLTxM4MU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 02 May 2025 12:40:10 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/JuanApp/Templates/verifyEmail.641g1uf5y6.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Templates\verifyEmail.html'))</AssetFile>
