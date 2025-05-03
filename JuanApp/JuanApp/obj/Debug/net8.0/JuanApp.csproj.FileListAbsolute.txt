@@ -774,9 +774,9 @@ C:\Users\ASUS\OneDrive\Desktop\JuanApp(MVC)\JuanApp\JuanApp\obj\Debug\net8.0\ref
 C:\Users\ASUS\OneDrive\Desktop\JuanApp(MVC)\JuanApp\JuanApp\obj\Debug\net8.0\JuanApp.pdb
 C:\Users\ASUS\OneDrive\Desktop\JuanApp(MVC)\JuanApp\JuanApp\obj\Debug\net8.0\JuanApp.genruntimeconfig.cache
 C:\Users\ASUS\OneDrive\Desktop\JuanApp(MVC)\JuanApp\JuanApp\obj\Debug\net8.0\ref\JuanApp.dll
-C:\Users\ASUS\OneDrive\Desktop\JuanApp(MVC)\JuanApp\JuanApp\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\ASUS\OneDrive\Desktop\JuanApp(MVC)\JuanApp\JuanApp\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
 C:\Users\ASUS\OneDrive\Desktop\JuanApp(MVC)\JuanApp\JuanApp\bin\Debug\net8.0\MailKit.dll
 C:\Users\ASUS\OneDrive\Desktop\JuanApp(MVC)\JuanApp\JuanApp\bin\Debug\net8.0\MimeKit.dll
 C:\Users\ASUS\OneDrive\Desktop\JuanApp(MVC)\JuanApp\JuanApp\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\ASUS\OneDrive\Desktop\JuanApp(MVC)\JuanApp\JuanApp\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\ASUS\OneDrive\Desktop\JuanApp(MVC)\JuanApp\JuanApp\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

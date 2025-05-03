@@ -25,7 +25,6 @@
     <script src="~/assets/js/modernizr-2.8.3.min.js"></script>
 
 </head>
-
 <body>
     <!-- Start Header Area -->
     <header class="header-area">
@@ -285,10 +284,9 @@
                                                 <li><a asp-controller="Account" asp-action="Login" >login</a></li>
                                                 <li><a asp-controller="Account" asp-action="Register">register</a></li>
                                                 @if (User.Identity.IsAuthenticated)
-                                                    {
-                                                        <li><a asp-controller="Account" asp-action="Profile">My Account</a></li>
-                                                    }
-
+                                                {
+                                                    <li><a asp-controller="Account" asp-action="Profile">My Account</a></li>
+                                                }
                                             </ul>
                                         </li>
                                         <li>
@@ -594,7 +592,7 @@
                         <div class="widget-item mt-40">
                             <h5 class="widget-title">My Account</h5>
                             <div class="widget-body">
-                                <ul class="location-wrap">
+                                <ul class="location-wrap sjsj">
                                     <li>
                                         <i class="ion-ios-location-outline"></i>@settings.FirstOrDefault(x=>x.Key=="Location").Value
                                     </li>
@@ -606,6 +604,17 @@
                                         <i class="ion-ios-telephone-outline"></i>Phone:
                                         <a href="%2b0025425456554">@settings.FirstOrDefault(x => x.Key == "Phone").Value</a>
                                     </li>
+                                    <div class="single-input-item">
+                                        @if (ViewBag.IsSubscribed == true)
+                                        {
+                                            <a asp-controller="Account" asp-action="Subscribe" class="btn">Subscribe</a>
+                                        }
+                                        else
+                                        {
+                                            <a asp-controller="Account" asp-action="Unsubscribe" class="btn">Unsubscribe</a>
+                                        }
+
+                                        </div>
                                 </ul>
                             </div>
                         </div>

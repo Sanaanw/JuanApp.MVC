@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
+using System.Runtime.InteropServices;
 
 namespace JuanApp.Controllers
 {
@@ -260,6 +261,22 @@ namespace JuanApp.Controllers
             if (!ModelState.IsValid)
                 return View(userProfileVm);
             return RedirectToAction("Index", "Home");
+        }
+        public async Task<IActionResult> Subscribe()
+        {
+            var user = await userManager.GetUserAsync(User);
+            if (user == null)
+                return NotFound();
+            ViewBag.IsSubscribed = user.IsSubcribed;
+            user.IsSubcribed=!user.IsSubcribed;
+            var result = await userManager.UpdateAsync(user);
+            if (!result.Succeeded)
+            {
+
+                ModelState.AddModelError("", "Something went wrong while updating subscription status.");
+                return View();
+            }
+            return RedirectToAction("Index" , "Home" );
         }
     } 
 }

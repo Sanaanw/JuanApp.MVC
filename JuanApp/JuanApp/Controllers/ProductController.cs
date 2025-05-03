@@ -89,6 +89,6 @@ namespace JuanApp.Controllers
             };
             return View(blogDetailVm);
         }
-       
+        
     }
 }

@@ -1,10 +1,17 @@
 ﻿using JuanApp.Data;
 using JuanApp.Helpers;
+using JuanApp.Models;
 using JuanApp.Models.Home.Product;
+using JuanApp.Services;
+using JuanApp.Settings;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Areas;
+using System.Threading.Tasks;
 
 namespace JuanApp.Areas.Manage.Controllers
 {
@@ -14,15 +21,25 @@ namespace JuanApp.Areas.Manage.Controllers
     {
         private readonly JuanAppContext context;
         private readonly IWebHostEnvironment env;
-        public ProductController(JuanAppContext _context, IWebHostEnvironment _env)
+        private readonly UserManager<AppUser> userManager;
+        private readonly EmailService emailService;
+        private readonly IOptions<EmailSetting> emailSetting;
+        public ProductController(JuanAppContext _context,
+            IWebHostEnvironment _env,
+            UserManager<AppUser> _userManager,
+            EmailService _emailService,
+            IOptions<EmailSetting> _emailSetting)
         {
             context = _context;
             env = _env;
+            userManager = _userManager;
+            emailService = _emailService;
+            emailSetting = _emailSetting;
         }
         public IActionResult Index(int page = 1, int take = 2)
         {
             var query = context.Product
-                .Include(x=>x.ProductImages)
+                .Include(x => x.ProductImages)
                 .AsQueryable();
             PaginatedList<Product> paginatedList = PaginatedList<Product>.Create(query, page, take);
             return View(paginatedList);
@@ -34,7 +51,7 @@ namespace JuanApp.Areas.Manage.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult Create(Product product)
+        public async Task<IActionResult> Create(Product product)
         {
             if (!ModelState.IsValid)
                 return View();
@@ -52,6 +69,7 @@ namespace JuanApp.Areas.Manage.Controllers
                     ProductImage productImage = new();
                     productImage.ProductId = product.Id;
                     productImage.Name = file.SaveImage(env.WebRootPath, "assets/img/product");
+                    productImage.Status = false;
                     product.ProductImages.Add(productImage);
                 }
             }
@@ -72,9 +90,25 @@ namespace JuanApp.Areas.Manage.Controllers
                 ModelState.AddModelError("MainFile", "Main image is required");
                 return View();
             }
+            product.CreatedDate = DateTime.Now;
+            await context.Product.AddAsync(product);
+            await context.SaveChangesAsync();
 
-            context.Product.Add(product);
-            context.SaveChanges();
+            var subscribedUsers = await userManager.Users
+             .Where(u => u.IsSubcribed == true)
+              .ToListAsync();
+            foreach (var user in subscribedUsers)
+            {
+                var token = await userManager.GeneratePasswordResetTokenAsync(user);
+                var url = Url.Action("ProductDetail", "Product",new { id=product.Id,area=""}, Request.Scheme);
+
+                using StreamReader streamReader = new StreamReader("wwwroot/templates/NewProduct.html");
+                string body = await streamReader.ReadToEndAsync();
+                body = body.Replace("{{url}}", url);
+                body = body.Replace("{{username}}", user.FullName);
+
+                emailService.SendEmail(user.Email, "New Product", body, emailSetting.Value);
+            }
 
             return RedirectToAction("Index");
         }
@@ -132,8 +166,8 @@ namespace JuanApp.Areas.Manage.Controllers
         {
             ViewBag.Categories = new SelectList(context.Category.ToList(), "Id", "Name");
             if (id == null) return NotFound();
-            var product=context.Product
-                .Include(x=>x.Category)
+            var product = context.Product
+                .Include(x => x.Category)
                 .Include(x => x.ProductImages)
                 .Include(x => x.ProductTags)
                 .ThenInclude(x => x.Tag)
@@ -160,7 +194,7 @@ namespace JuanApp.Areas.Manage.Controllers
 
             if (existProduct == null) return NotFound();
 
-            if (product.MainFile == null && !existProduct.ProductImages.Any(p => p.Status==true))
+            if (product.MainFile == null && !existProduct.ProductImages.Any(p => p.Status == true))
             {
                 ModelState.AddModelError("MainFile", "Main image is required.");
                 ViewBag.Categories = new SelectList(context.Category, "Id", "Name", product.CategoryId);

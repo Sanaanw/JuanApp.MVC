@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\JuanApp.ysi309wuk5.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\Templates\\NewProduct.html",
+      "PackagePath": "staticwebassets\\Templates\\NewProduct.html"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\Templates\\forgotpassword.html",
       "PackagePath": "staticwebassets\\Templates\\forgotpassword.html"
     },
@@ -223,6 +227,62 @@
     {
       "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\img\\paypal-card.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\paypal-card.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\img\\product\\37ca8eaa-45f6-415f-acad-b1cb4b7f4ad1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\37ca8eaa-45f6-415f-acad-b1cb4b7f4ad1.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\img\\product\\4c0a5046-70f8-4a7e-bfea-f8b069b7f9a7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\4c0a5046-70f8-4a7e-bfea-f8b069b7f9a7.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\img\\product\\4ff503db-3ff5-45d3-bf7e-f9f352253839.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\4ff503db-3ff5-45d3-bf7e-f9f352253839.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\img\\product\\53aae055-1aa7-4eae-865c-f5dc45830a4c.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\53aae055-1aa7-4eae-865c-f5dc45830a4c.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\img\\product\\5865a45d-6b03-4117-845d-03d140e29a54.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\5865a45d-6b03-4117-845d-03d140e29a54.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\img\\product\\787b56ad-fa35-496d-86c8-228c0ec6e93f.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\787b56ad-fa35-496d-86c8-228c0ec6e93f.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\img\\product\\844786f5-ad81-4191-85b0-3c4c82cf3a39.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\844786f5-ad81-4191-85b0-3c4c82cf3a39.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\img\\product\\8ec34e6c-e1c4-4474-a2ae-6ad5d970a536.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\8ec34e6c-e1c4-4474-a2ae-6ad5d970a536.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\img\\product\\a5f2202a-0f4b-42ad-8c2f-b46abdd0540f.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\a5f2202a-0f4b-42ad-8c2f-b46abdd0540f.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\img\\product\\ab007e58-daca-4f8f-8473-ab143b528d11.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\ab007e58-daca-4f8f-8473-ab143b528d11.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\img\\product\\b6eb0ba7-17cf-4f07-8256-1050964030ee.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\b6eb0ba7-17cf-4f07-8256-1050964030ee.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\img\\product\\c4402376-d35e-4b11-b8b1-693683e63d9d.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\c4402376-d35e-4b11-b8b1-693683e63d9d.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\img\\product\\cebc0558-a10d-4ff6-a02c-4af857ca1c6d.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\cebc0558-a10d-4ff6-a02c-4af857ca1c6d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\img\\product\\df3d0072-88b7-4af4-ad42-4afef7dc735e.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\df3d0072-88b7-4af4-ad42-4afef7dc735e.jpg"
     },
     {
       "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp(MVC)\\JuanApp\\JuanApp\\wwwroot\\assets\\img\\product\\pro-small-1.jpg",
