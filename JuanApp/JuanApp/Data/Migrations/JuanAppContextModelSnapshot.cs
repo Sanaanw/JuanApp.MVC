@@ -191,6 +191,45 @@ namespace JuanApp.Migrations
                     b.ToTable("ProductColor");
                 });
 
+            modelBuilder.Entity("JuanApp.Models.Home.Product.ProductComment", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("AppUserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Rate")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Text")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("ProductComment");
+                });
+
             modelBuilder.Entity("JuanApp.Models.Home.Product.ProductImage", b =>
                 {
                     b.Property<int>("Id")
@@ -464,6 +503,23 @@ namespace JuanApp.Migrations
                     b.Navigation("Product");
                 });
 
+            modelBuilder.Entity("JuanApp.Models.Home.Product.ProductComment", b =>
+                {
+                    b.HasOne("JuanApp.Models.AppUser", "AppUser")
+                        .WithMany()
+                        .HasForeignKey("AppUserId");
+
+                    b.HasOne("JuanApp.Models.Home.Product.Product", "Product")
+                        .WithMany("ProductComments")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
+
+                    b.Navigation("Product");
+                });
+
             modelBuilder.Entity("JuanApp.Models.Home.Product.ProductImage", b =>
                 {
                     b.HasOne("JuanApp.Models.Home.Product.Product", "Product")
@@ -558,6 +614,8 @@ namespace JuanApp.Migrations
             modelBuilder.Entity("JuanApp.Models.Home.Product.Product", b =>
                 {
                     b.Navigation("ProductColors");
+
+                    b.Navigation("ProductComments");
 
                     b.Navigation("ProductImages");
 

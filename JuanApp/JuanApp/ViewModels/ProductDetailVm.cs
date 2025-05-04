@@ -9,7 +9,7 @@ namespace JuanApp.ViewModels
         public int TotalComments { get; set; }
         public bool HasComment { get; set; }
         public decimal AvgRate { get; set; }
-        public BookComment BookComment { get; set; }
+        public ProductComment ProductComment { get; set; }
 
     }
 }

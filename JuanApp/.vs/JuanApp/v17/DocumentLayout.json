@@ -7,16 +7,8 @@
       "RelativeMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\areas\\manage\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|c:\\users\\asus\\onedrive\\desktop\\juanapp(mvc)\\juanapp\\juanapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|c:\\users\\asus\\onedrive\\desktop\\juanapp(mvc)\\juanapp\\juanapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|c:\\users\\asus\\onedrive\\desktop\\juanapp(mvc)\\juanapp\\juanapp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|c:\\users\\asus\\onedrive\\desktop\\juanapp(mvc)\\juanapp\\juanapp\\models\\home\\product\\productcomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\models\\home\\product\\productcomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,50 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp(MVC)\\JuanApp\\JuanApp\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "JuanApp\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp(MVC)\\JuanApp\\JuanApp\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "JuanApp\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T14:05:48.34Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp(MVC)\\JuanApp\\JuanApp\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "JuanApp\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp(MVC)\\JuanApp\\JuanApp\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "JuanApp\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAPgAAAAAAAAAAAAAAA4BAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-03T13:07:13.756Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp(MVC)\\JuanApp\\JuanApp\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "JuanApp\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp(MVC)\\JuanApp\\JuanApp\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "JuanApp\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T13:07:10.946Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -79,10 +32,22 @@
               "RelativeDocumentMoniker": "JuanApp\\Areas\\Manage\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp(MVC)\\JuanApp\\JuanApp\\Areas\\Manage\\Controllers\\ProductController.cs",
               "RelativeToolTip": "JuanApp\\Areas\\Manage\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAlwGYAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwPwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T12:37:52.285Z",
+              "WhenOpened": "2025-05-04T10:40:40.367Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductComment.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp(MVC)\\JuanApp\\JuanApp\\Models\\Home\\Product\\ProductComment.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Models\\Home\\Product\\ProductComment.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp(MVC)\\JuanApp\\JuanApp\\Models\\Home\\Product\\ProductComment.cs",
+              "RelativeToolTip": "JuanApp\\Models\\Home\\Product\\ProductComment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T14:16:35.234Z"
             }
           ]
         }

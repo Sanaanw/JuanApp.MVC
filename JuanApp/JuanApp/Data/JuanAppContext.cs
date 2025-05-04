@@ -19,6 +19,7 @@ namespace JuanApp.Data
         public DbSet<Setting> Setting { get; set; }
 
         public DbSet<AppUser> AppUser { get; set; }
+        public DbSet<ProductComment> ProductComment { get; set; }
 
         public JuanAppContext(DbContextOptions options) : base(options)
         {

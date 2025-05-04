@@ -1,4 +1,5 @@
-﻿using JuanApp.Data;
+﻿using JuanApp.Areas.Manage.ViewModels;
+using JuanApp.Data;
 using JuanApp.Helpers;
 using JuanApp.Models;
 using JuanApp.Models.Home.Product;
@@ -179,7 +180,6 @@ namespace JuanApp.Areas.Manage.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-
         public IActionResult Edit(Product product)
         {
             if (!ModelState.IsValid)
@@ -248,6 +248,9 @@ namespace JuanApp.Areas.Manage.Controllers
 
             return RedirectToAction(nameof(Index));
         }
+
+
+
 
 
     }

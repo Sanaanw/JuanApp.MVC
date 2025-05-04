@@ -28,5 +28,10 @@ namespace JuanApp.Models.Home.Product
         [AllowedType("image/jpeg", "image/png")]
         [AllowedLength(2 * 1024 * 1024)]
         public IFormFile MainFile { get; set; }
+        public List<ProductComment> ProductComments { get; set; }
+        public Product()
+        {
+            ProductComments = new();
+        }
     }
 }
