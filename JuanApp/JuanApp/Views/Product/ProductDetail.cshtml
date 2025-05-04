@@ -321,7 +321,7 @@
                                         <div class="tab-pane fade" id="tab_three">
                                             <h5>@Model.TotalComments review for <span>@Model.Product.Name</span></h5>
                                             <div class="total-reviews">
-                                                @foreach(var comment in Model.Product.ProductComments)
+                                                @foreach(var comment in Model.Product.ProductComments.Where(x=>x.Status==CommentStatus.Approved))
                                                 {
                                                     <div class="review-box">
                                                         <div class="ratings">

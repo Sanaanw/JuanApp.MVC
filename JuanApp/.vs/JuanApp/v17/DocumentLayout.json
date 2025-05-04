@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp(MVC)\\JuanApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|c:\\users\\asus\\onedrive\\desktop\\juanapp(mvc)\\juanapp\\juanapp\\areas\\manage\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\areas\\manage\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|c:\\users\\asus\\onedrive\\desktop\\juanapp(mvc)\\juanapp\\juanapp\\views\\product\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\views\\product\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|c:\\users\\asus\\onedrive\\desktop\\juanapp(mvc)\\juanapp\\juanapp\\models\\home\\product\\productcomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\models\\home\\product\\productcomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|c:\\users\\asus\\onedrive\\desktop\\juanapp(mvc)\\juanapp\\juanapp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +27,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp(MVC)\\JuanApp\\JuanApp\\Areas\\Manage\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "JuanApp\\Areas\\Manage\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp(MVC)\\JuanApp\\JuanApp\\Areas\\Manage\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "JuanApp\\Areas\\Manage\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwPwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T10:40:40.367Z",
+              "Title": "ProductDetail.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp(MVC)\\JuanApp\\JuanApp\\Views\\Product\\ProductDetail.cshtml",
+              "RelativeDocumentMoniker": "JuanApp\\Views\\Product\\ProductDetail.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp(MVC)\\JuanApp\\JuanApp\\Views\\Product\\ProductDetail.cshtml",
+              "RelativeToolTip": "JuanApp\\Views\\Product\\ProductDetail.cshtml",
+              "ViewState": "AgIAAB0BAAAAAAAAAAAAAEMBAACPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-04T18:28:47.368Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProductComment.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp(MVC)\\JuanApp\\JuanApp\\Models\\Home\\Product\\ProductComment.cs",
-              "RelativeDocumentMoniker": "JuanApp\\Models\\Home\\Product\\ProductComment.cs",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp(MVC)\\JuanApp\\JuanApp\\Models\\Home\\Product\\ProductComment.cs",
-              "RelativeToolTip": "JuanApp\\Models\\Home\\Product\\ProductComment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAARAAAAAAAAAA==",
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp(MVC)\\JuanApp\\JuanApp\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp(MVC)\\JuanApp\\JuanApp\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "JuanApp\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T14:16:35.234Z"
+              "WhenOpened": "2025-05-04T18:25:32.748Z",
+              "EditorCaption": ""
             }
           ]
         }

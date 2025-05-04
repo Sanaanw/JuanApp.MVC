@@ -60,15 +60,15 @@ namespace JuanApp.Controllers
             if (userId != null)
             {
                 productDetailVm.HasComment = context.ProductComment
-                    .Any(bc => bc.AppUserId == userId && bc.ProductId == id && bc.Status != CommentStatus.Rejected);
+                    .Any(bc => bc.AppUserId == userId && bc.ProductId == id && bc.Status == CommentStatus.Approved);
             }
 
 
             productDetailVm.TotalComments = context.ProductComment
-                .Count(bc => bc.ProductId == id && bc.Status != CommentStatus.Rejected);
+                .Count(bc => bc.ProductId == id && bc.Status == CommentStatus.Approved);
 
             var rates = context.ProductComment
-                .Where(bc => bc.ProductId == id && bc.Status != CommentStatus.Rejected)
+                .Where(bc => bc.ProductId == id && bc.Status == CommentStatus.Approved)
                 .Select(bc => (decimal?)bc.Rate)
                 .ToList();
             productDetailVm.AvgRate = rates.Any() ? rates.Average() ?? 0 : 0;
@@ -146,15 +146,15 @@ namespace JuanApp.Controllers
             if (userId != null)
             {
                 productDetailVm.HasComment = context.ProductComment
-                    .Any(bc => bc.AppUserId == userId && bc.ProductId == productId && bc.Status != CommentStatus.Rejected);
+                    .Any(bc => bc.AppUserId == userId && bc.ProductId == productId && bc.Status == CommentStatus.Approved);
             }
 
 
             productDetailVm.TotalComments = context.ProductComment
-                .Count(bc => bc.ProductId == productId && bc.Status != CommentStatus.Rejected);
+                .Count(bc => bc.ProductId == productId && bc.Status == CommentStatus.Approved);
 
             var rates = context.ProductComment
-                .Where(bc => bc.ProductId == productId && bc.Status != CommentStatus.Rejected)
+                .Where(bc => bc.ProductId == productId && bc.Status == CommentStatus.Approved)
                 .Select(bc => (decimal?)bc.Rate)
                 .ToList();
             productDetailVm.AvgRate = rates.Any() ? rates.Average() ?? 0 : 0;

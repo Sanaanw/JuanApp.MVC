@@ -249,9 +249,51 @@ namespace JuanApp.Areas.Manage.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-
-
-
-
+        public IActionResult CommentSet()
+        {
+            var comments = context.ProductComment
+                .Include(x => x.AppUser)
+                .Include(x => x.Product)
+                .ToList();
+            var Products = context.Product
+                .Include(x => x.ProductImages)
+                .ToList();
+            CommentSetVm commentSetVm = new()
+            {
+                Products = Products,
+                ProductComments = comments
+            };
+            return View(commentSetVm);
+        }
+        public IActionResult DeleteComment(int? id)
+        {
+            if (id == null) return NotFound();
+            var comment = context.ProductComment
+                .FirstOrDefault(x => x.Id == id);
+            if (comment == null) return NotFound();
+            context.ProductComment.Remove(comment);
+            context.SaveChanges();
+            return RedirectToAction("CommentSet");
+        }
+        public IActionResult CommentApprove(int? id)
+        {
+            if (id == null) return NotFound();
+            var comment = context.ProductComment
+                .FirstOrDefault(x => x.Id == id);
+            if (comment == null) return NotFound();
+            comment.Status = CommentStatus.Approved;
+            context.SaveChanges();
+            return RedirectToAction("CommentSet");
+        }
+        public IActionResult CommentReject(int? id)
+        {
+            if (id == null) return NotFound();
+            var comment = context.ProductComment
+                .FirstOrDefault(x => x.Id == id);
+            if (comment == null) return NotFound();
+            comment.Status = CommentStatus.Rejected;
+            context.SaveChanges();
+            return RedirectToAction("CommentSet");
+        }
     }
 }

@@ -51,12 +51,6 @@ wwwroot\assets\img\icon\policy-2.png
 wwwroot\assets\img\icon\policy-3.png
 wwwroot\assets\img\logo\logo.png
 wwwroot\assets\img\paypal-card.jpg
-wwwroot\assets\img\product\5865a45d-6b03-4117-845d-03d140e29a54.png
-wwwroot\assets\img\product\5d56cc2b-0469-49ab-9942-c5b4b8237405.png
-wwwroot\assets\img\product\8ec34e6c-e1c4-4474-a2ae-6ad5d970a536.png
-wwwroot\assets\img\product\95f7eb12-6a1a-4978-8a55-15fa6363ee6e.png
-wwwroot\assets\img\product\cebc0558-a10d-4ff6-a02c-4af857ca1c6d.jpg
-wwwroot\assets\img\product\df3d0072-88b7-4af4-ad42-4afef7dc735e.jpg
 wwwroot\assets\img\product\product-1.jpg
 wwwroot\assets\img\product\product-10.jpg
 wwwroot\assets\img\product\product-11.jpg
