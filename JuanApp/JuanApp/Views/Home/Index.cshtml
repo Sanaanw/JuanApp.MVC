@@ -24,7 +24,7 @@
                                 </div>
                             </div>
                             <!-- single slider item end -->
-                        }
+                        } 
 
                     </div>
                 </div>
@@ -115,7 +115,7 @@
                                         <a href="#" data-toggle="tooltip" title="Wishlist">
                                             <i class="ion-android-favorite-outline"></i>
                                         </a>
-                                        <a href="#" data-toggle="tooltip" title="Add To Cart">
+                                        <a asp-controller="Basket" asp-action="AddToBasket" asp-route-id="@product.Id" class="addtobasket" data-toggle="tooltip" title="Add To Cart">
                                             <i class="ion-bag"></i>
                                         </a>
                                         <a href="#" data-toggle="modal" data-target="#quick_view">

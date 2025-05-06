@@ -6809,6 +6809,88 @@
       ]
     },
     {
+      "Route": "assets/js/main.js",
+      "AssetFile": "assets/js/main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "333"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JumSdVTS4NtcsPtdwzntRRvLF4nrN99iXOZLX6yd3F8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 07:36:22 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JumSdVTS4NtcsPtdwzntRRvLF4nrN99iXOZLX6yd3F8="
+        }
+      ]
+    },
+    {
+      "Route": "assets/js/main.y5tu6hpnyb.js",
+      "AssetFile": "assets/js/main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "333"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JumSdVTS4NtcsPtdwzntRRvLF4nrN99iXOZLX6yd3F8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 07:36:22 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y5tu6hpnyb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JumSdVTS4NtcsPtdwzntRRvLF4nrN99iXOZLX6yd3F8="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/js/main.js"
+        }
+      ]
+    },
+    {
       "Route": "assets/js/modernizr-2.8.3.min.js",
       "AssetFile": "assets/js/modernizr-2.8.3.min.js",
       "Selectors": [],
