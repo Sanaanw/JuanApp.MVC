@@ -951,14 +951,14 @@
     <StaticWebAssetEndpoint Include="_content/JuanApp/assets/js/main.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\main.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-JumSdVTS4NtcsPtdwzntRRvLF4nrN99iXOZLX6yd3F8="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"333"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022JumSdVTS4NtcsPtdwzntRRvLF4nrN99iXOZLX6yd3F8=\u0022"},{"Name":"Last-Modified","Value":"Tue, 06 May 2025 07:36:22 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ir7w\u002BuewuJt9fWfzdOWtdqiEYaOM4X29vmHQ8NL69IM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"350"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ir7w\u002BuewuJt9fWfzdOWtdqiEYaOM4X29vmHQ8NL69IM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 06 May 2025 19:05:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/JuanApp/assets/js/main.y5tu6hpnyb.js">
+    <StaticWebAssetEndpoint Include="_content/JuanApp/assets/js/main.u3shy54d6r.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\main.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"y5tu6hpnyb"},{"Name":"integrity","Value":"sha256-JumSdVTS4NtcsPtdwzntRRvLF4nrN99iXOZLX6yd3F8="},{"Name":"label","Value":"_content/JuanApp/assets/js/main.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"333"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022JumSdVTS4NtcsPtdwzntRRvLF4nrN99iXOZLX6yd3F8=\u0022"},{"Name":"Last-Modified","Value":"Tue, 06 May 2025 07:36:22 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"u3shy54d6r"},{"Name":"integrity","Value":"sha256-ir7w\u002BuewuJt9fWfzdOWtdqiEYaOM4X29vmHQ8NL69IM="},{"Name":"label","Value":"_content/JuanApp/assets/js/main.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"350"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ir7w\u002BuewuJt9fWfzdOWtdqiEYaOM4X29vmHQ8NL69IM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 06 May 2025 19:05:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/JuanApp/assets/js/modernizr-2.8.3.min.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\modernizr-2.8.3.min.js'))</AssetFile>

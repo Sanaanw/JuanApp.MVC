@@ -109,7 +109,7 @@ namespace JuanApp.Controllers
                 return View();
             }
 
-            //Response.Cookies.Delete("basket");
+            Response.Cookies.Delete("basket");
             return returnUrl != null ? Redirect(returnUrl) : RedirectToAction("Index", "Home");
         }
         //Forget Password

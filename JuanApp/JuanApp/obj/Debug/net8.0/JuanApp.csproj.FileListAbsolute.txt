@@ -1044,3 +1044,4 @@ C:\Users\ASUS\OneDrive\Desktop\JuanApp.MVC\JuanApp\JuanApp\obj\Debug\net8.0\refi
 C:\Users\ASUS\OneDrive\Desktop\JuanApp.MVC\JuanApp\JuanApp\obj\Debug\net8.0\JuanApp.pdb
 C:\Users\ASUS\OneDrive\Desktop\JuanApp.MVC\JuanApp\JuanApp\obj\Debug\net8.0\JuanApp.genruntimeconfig.cache
 C:\Users\ASUS\OneDrive\Desktop\JuanApp.MVC\JuanApp\JuanApp\obj\Debug\net8.0\ref\JuanApp.dll
+C:\Users\ASUS\OneDrive\Desktop\JuanApp.MVC\JuanApp\JuanApp\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -1,5 +1,6 @@
 ﻿using JuanApp.Data;
 using JuanApp.Models;
+using JuanApp.Models.Home.Product;
 using JuanApp.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -55,6 +56,30 @@ namespace JuanApp.Controllers
                 };
                 baskets.Add(basketItem);
             }
+
+            if (User.Identity.IsAuthenticated)
+            {
+                var user = userManager.Users
+                    .Include(b => b.DbBasketItems)
+                    .FirstOrDefault(u => u.UserName == User.Identity.Name);
+                var existUserBasketItem = user.DbBasketItems
+                    .FirstOrDefault(b => b.ProductId == id);
+                if (existUserBasketItem != null)
+                {
+                    existUserBasketItem.Count++;
+                }
+                else
+                {
+                    user.DbBasketItems.Add(new DbBasketItem
+                    {
+                        ProductId = product.Id,
+                        Count = 1,
+                        AppUserId = user.Id
+                    });
+                }
+                context.SaveChanges();
+            }
+
             Response.Cookies.Append("basket", JsonConvert.SerializeObject(baskets));
             return Json(baskets);
         }

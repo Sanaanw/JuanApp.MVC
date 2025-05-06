@@ -20,6 +20,7 @@ namespace JuanApp.Data
 
         public DbSet<AppUser> AppUser { get; set; }
         public DbSet<ProductComment> ProductComment { get; set; }
+        public DbSet<DbBasketItem> DbBasketItem { get; set; }
 
         public JuanAppContext(DbContextOptions options) : base(options)
         {
