@@ -23,9 +23,9 @@
                                 <span class="cart-price">$@item.Price.ToString("0.##")</span>
                             </p>
                         </div>
-                        @* <button class="minicart-remove"> *@
-                        @*     <i class="ion-android-close"></i> *@
-                        @* </button> *@
+                        <a asp-controller="Basket" asp-action="DeleteFromBasket" asp-route-id="@item.productId" class="minicart-remove">
+                            <i class="ion-android-close"></i>
+                         </a> 
                     </li>
                 }
             </ul>
@@ -43,9 +43,9 @@
                 </li>
             </ul>
         </div>
-
+            
         <div class="minicart-button">
-            <a href="cart.html"><i class="fa fa-shopping-cart"></i> view cart</a>
+            <a asp-controller="Basket" asp-action="Index" ><i class="fa fa-shopping-cart"></i> view cart</a>
             <a href="cart.html"><i class="fa fa-share"></i> checkout</a>
         </div>
     </div>

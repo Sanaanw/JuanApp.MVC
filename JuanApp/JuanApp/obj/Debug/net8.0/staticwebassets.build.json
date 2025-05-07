@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KBRSRymRqEJTcvqRjCIICXkUeBX4P1p2XHNSDC+pE1s=",
+  "Hash": "qYMCQzBqc3xEIhmNuPhhYeefNV13NepGSe08DWxXGY0=",
   "Source": "JuanApp",
   "BasePath": "_content/JuanApp",
   "Mode": "Default",
@@ -1732,8 +1732,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "u3shy54d6r",
-      "Integrity": "ir7w+uewuJt9fWfzdOWtdqiEYaOM4X29vmHQ8NL69IM=",
+      "Fingerprint": "bnzazrdv8m",
+      "Integrity": "CU5aD7JiOPOZjjhJg6eWzCwcTeCR3PyM2rxtlQCCjSw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\js\\main.js"
@@ -20861,6 +20861,51 @@
       ]
     },
     {
+      "Route": "assets/js/main.bnzazrdv8m.js",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp.MVC\\JuanApp\\JuanApp\\wwwroot\\assets\\js\\main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "333"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CU5aD7JiOPOZjjhJg6eWzCwcTeCR3PyM2rxtlQCCjSw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 06:08:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bnzazrdv8m"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/js/main.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CU5aD7JiOPOZjjhJg6eWzCwcTeCR3PyM2rxtlQCCjSw="
+        }
+      ]
+    },
+    {
       "Route": "assets/js/main.js",
       "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp.MVC\\JuanApp\\JuanApp\\wwwroot\\assets\\js\\main.js",
       "Selectors": [],
@@ -20871,7 +20916,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "350"
+          "Value": "333"
         },
         {
           "Name": "Content-Type",
@@ -20879,11 +20924,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ir7w+uewuJt9fWfzdOWtdqiEYaOM4X29vmHQ8NL69IM=\""
+          "Value": "\"CU5aD7JiOPOZjjhJg6eWzCwcTeCR3PyM2rxtlQCCjSw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 19:05:11 GMT"
+          "Value": "Wed, 07 May 2025 06:08:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -20893,52 +20938,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ir7w+uewuJt9fWfzdOWtdqiEYaOM4X29vmHQ8NL69IM="
-        }
-      ]
-    },
-    {
-      "Route": "assets/js/main.u3shy54d6r.js",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp.MVC\\JuanApp\\JuanApp\\wwwroot\\assets\\js\\main.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "350"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ir7w+uewuJt9fWfzdOWtdqiEYaOM4X29vmHQ8NL69IM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 19:05:11 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "u3shy54d6r"
-        },
-        {
-          "Name": "label",
-          "Value": "assets/js/main.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ir7w+uewuJt9fWfzdOWtdqiEYaOM4X29vmHQ8NL69IM="
+          "Value": "sha256-CU5aD7JiOPOZjjhJg6eWzCwcTeCR3PyM2rxtlQCCjSw="
         }
       ]
     },

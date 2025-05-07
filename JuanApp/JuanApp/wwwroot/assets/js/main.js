@@ -6,7 +6,7 @@
         fetch(url)
             .then(response => response.text())
             .then(data => {
-                $(".offcanvas-overlay").html(data);
+                location.reload();
             });
     })
 })
