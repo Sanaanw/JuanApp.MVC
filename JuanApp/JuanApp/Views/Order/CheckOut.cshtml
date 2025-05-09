@@ -1,0 +1,112 @@
+﻿  @model CheckOutVm
+  <!-- main wrapper start -->
+<main>
+    <!-- breadcrumb area start -->
+    <div class="breadcrumb-area bg-img" data-bg="assets/img/banner/breadcrumb-banner.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcrumb-wrap text-center">
+                        <nav aria-label="breadcrumb">
+                            <h1 class="breadcrumb-title">Checkout</h1>
+                            <ul class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Checkout</li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- breadcrumb area end -->
+    <!-- checkout main wrapper start -->
+    <div class="checkout-page-wrapper section-padding">
+        <div class="container">
+            <div class="row">
+                <!-- Checkout Billing Details -->
+                <div class="col-lg-6">
+                    <div class="checkout-billing-details-wrap">
+                        <h4 class="checkout-title">Billing Details</h4>
+                        <div class="billing-form-wrap">
+                            <form method="post" id="checkoutform">
+                                <div class="single-input-item">
+                                    <label asp-for="@Model.OrderVm.CompanyName">Company Name</label>
+                                    <input asp-for="@Model.OrderVm.CompanyName" type="text" placeholder="Company Name" />
+                                    <span class="text-danger" asp-validation-for="@Model.OrderVm.CompanyName" > </span>
+                                </div>
+
+                                <div class="single-input-item">
+                                    <label asp-for="@Model.OrderVm.Address">Address</label>
+                                    <input asp-for="@Model.OrderVm.Address" type="text" placeholder="Address" />
+                                    <span class="text-danger" asp-validation-for="@Model.OrderVm.Address"> </span>
+                                </div>
+
+                                <div class="single-input-item">
+                                    <label asp-for="@Model.OrderVm.City">City</label>
+                                    <input asp-for="@Model.OrderVm.City" type="text" placeholder="City" />
+                                    <span class="text-danger" asp-validation-for="@Model.OrderVm.City"> </span>
+                                </div>
+                                <div class="single-input-item">
+                                    <label asp-for="@Model.OrderVm.ZipCode">ZipCode</label>
+                                    <input asp-for="@Model.OrderVm.ZipCode" type="text" placeholder="ZipCode" />
+                                    <span class="text-danger" asp-validation-for="@Model.OrderVm.ZipCode"> </span>
+                                </div>
+
+                                <div class="single-input-item">
+                                    <label asp-for="@Model.OrderVm.Phone">Phone</label>
+                                    <input asp-for="@Model.OrderVm.Phone" type="text" placeholder="Phone" />
+                                    <span class="text-danger" asp-validation-for="@Model.OrderVm.Phone"> </span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Order Summary Details -->
+                <div class="col-lg-6">
+                    <div class="order-summary-details">
+                        <h4 class="checkout-title">Your Order Summary</h4>
+                        <div class="order-summary-content">
+                            <!-- Order Summary Table -->
+                            <div class="order-summary-table table-responsive text-center">
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th>Products</th>
+                                            <th>Total</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var item in Model.CheckOutItems)
+                                        {
+                                            <tr>
+                                                <td>
+                                                    <a href="product-details.html">@item.Name <strong> × @item.Count</strong></a>
+                                                </td>
+                                                <td>$@(item.Count*item.Price)</td>
+                                            </tr>
+                                        })
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <td>Total Amount</td>
+                                            <td><strong>$</strong></td>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                            <!-- Order Payment Method -->
+                            <div style="margin-top: 30px;" class="summary-footer-area">
+                                <button type="submit" class="btn btn-sqr">Place Order</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- checkout main wrapper end -->
+</main>
+<!-- main wrapper end -->
