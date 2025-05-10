@@ -217,6 +217,9 @@ namespace JuanApp.Controllers
             UserProfileVm userProfileVm = new UserProfileVm
             {
                 UserUpdateProfileVm = userUpdateProfileVm,
+                Orders=context.Order
+               .Where(o => o.AppUserId == user.Id)
+               .ToList()
             };
 
 
