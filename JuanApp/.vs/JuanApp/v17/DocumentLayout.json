@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp.MVC\\JuanApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|c:\\users\\asus\\onedrive\\desktop\\juanapp.mvc\\juanapp\\juanapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|c:\\users\\asus\\onedrive\\desktop\\juanapp.mvc\\juanapp\\juanapp\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|c:\\users\\asus\\onedrive\\desktop\\juanapp.mvc\\juanapp\\juanapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|c:\\users\\asus\\onedrive\\desktop\\juanapp.mvc\\juanapp\\juanapp\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B660DF2B-5AD4-4E34-A82B-CA0B92D44FBB}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,32 +23,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp.MVC\\JuanApp\\JuanApp\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "JuanApp\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp.MVC\\JuanApp\\JuanApp\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "JuanApp\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAACsAAAAAAAAAAAASwDwAAAAyAAAAAAAAAA==",
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp.MVC\\JuanApp\\JuanApp\\Views\\Account\\Profile.cshtml",
+              "RelativeDocumentMoniker": "JuanApp\\Views\\Account\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp.MVC\\JuanApp\\JuanApp\\Views\\Account\\Profile.cshtml",
+              "RelativeToolTip": "JuanApp\\Views\\Account\\Profile.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAASwCoAAAB4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-11T10:01:51.146Z",
+              "WhenOpened": "2025-05-11T10:34:01.013Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp.MVC\\JuanApp\\JuanApp\\ServiceRegistration.cs",
-              "RelativeDocumentMoniker": "JuanApp\\ServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp.MVC\\JuanApp\\JuanApp\\ServiceRegistration.cs",
-              "RelativeToolTip": "JuanApp\\ServiceRegistration.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAgwCkAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T08:12:59.421Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
@@ -62,10 +41,14 @@
               "RelativeDocumentMoniker": "JuanApp\\Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp.MVC\\JuanApp\\JuanApp\\Controllers\\AccountController.cs",
               "RelativeToolTip": "JuanApp\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAA5wHUAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwMUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T07:33:08.872Z",
+              "WhenOpened": "2025-05-11T10:33:36.545Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

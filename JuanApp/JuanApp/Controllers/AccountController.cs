@@ -114,6 +114,11 @@ namespace JuanApp.Controllers
             Response.Cookies.Delete("basket");
             return returnUrl != null ? Redirect(returnUrl) : RedirectToAction("Index", "Home");
         }
+        public async Task<IActionResult> Logout()
+        {
+            await signInManager.SignOutAsync();
+            return RedirectToAction("Index", "Home");
+        }
         //Forget Password
         public IActionResult ForgetPassword()
         {
