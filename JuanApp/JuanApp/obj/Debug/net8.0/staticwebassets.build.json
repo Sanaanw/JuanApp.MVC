@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qYMCQzBqc3xEIhmNuPhhYeefNV13NepGSe08DWxXGY0=",
+  "Hash": "Xh2MjpHo87Y4W20kkAijSOdeybEi4weYyyiSGqXO7WI=",
   "Source": "JuanApp",
   "BasePath": "_content/JuanApp",
   "Mode": "Default",
@@ -1170,6 +1170,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\paypal-card.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp.MVC\\JuanApp\\JuanApp\\wwwroot\\assets\\img\\product\\283c9adb-2ec2-48ab-8f28-b1c7dbd2292c.png",
+      "SourceId": "JuanApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp.MVC\\JuanApp\\JuanApp\\wwwroot\\",
+      "BasePath": "_content/JuanApp",
+      "RelativePath": "assets/img/product/283c9adb-2ec2-48ab-8f28-b1c7dbd2292c#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "amofzobb19",
+      "Integrity": "ngJtXufVDbWvfkGLmeP9SOhuepAqyoukcWHTtazG9x8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\product\\283c9adb-2ec2-48ab-8f28-b1c7dbd2292c.png"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp.MVC\\JuanApp\\JuanApp\\wwwroot\\assets\\img\\product\\5bcea70a-0d7f-4b05-9821-1ca3b280fcad.png",
+      "SourceId": "JuanApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp.MVC\\JuanApp\\JuanApp\\wwwroot\\",
+      "BasePath": "_content/JuanApp",
+      "RelativePath": "assets/img/product/5bcea70a-0d7f-4b05-9821-1ca3b280fcad#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "amofzobb19",
+      "Integrity": "ngJtXufVDbWvfkGLmeP9SOhuepAqyoukcWHTtazG9x8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\product\\5bcea70a-0d7f-4b05-9821-1ca3b280fcad.png"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp.MVC\\JuanApp\\JuanApp\\wwwroot\\assets\\img\\product\\803904d0-3511-4a34-9d0a-11aa2f3d0a94.png",
+      "SourceId": "JuanApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp.MVC\\JuanApp\\JuanApp\\wwwroot\\",
+      "BasePath": "_content/JuanApp",
+      "RelativePath": "assets/img/product/803904d0-3511-4a34-9d0a-11aa2f3d0a94#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o663ilehbi",
+      "Integrity": "8NdoEzwcVy2CE+wJps3J5RiK85NDbGUtlP4gVt3pGmw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\product\\803904d0-3511-4a34-9d0a-11aa2f3d0a94.png"
     },
     {
       "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp.MVC\\JuanApp\\JuanApp\\wwwroot\\assets\\img\\product\\product-1.jpg",
@@ -18725,6 +18788,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-Sj0myoYoBaFV762+gIhWkGnIlqEktEPEE1anXefBMEY="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/product/283c9adb-2ec2-48ab-8f28-b1c7dbd2292c.amofzobb19.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp.MVC\\JuanApp\\JuanApp\\wwwroot\\assets\\img\\product\\283c9adb-2ec2-48ab-8f28-b1c7dbd2292c.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "172497"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ngJtXufVDbWvfkGLmeP9SOhuepAqyoukcWHTtazG9x8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 07:27:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "amofzobb19"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/product/283c9adb-2ec2-48ab-8f28-b1c7dbd2292c.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ngJtXufVDbWvfkGLmeP9SOhuepAqyoukcWHTtazG9x8="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/product/283c9adb-2ec2-48ab-8f28-b1c7dbd2292c.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp.MVC\\JuanApp\\JuanApp\\wwwroot\\assets\\img\\product\\283c9adb-2ec2-48ab-8f28-b1c7dbd2292c.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "172497"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ngJtXufVDbWvfkGLmeP9SOhuepAqyoukcWHTtazG9x8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 07:27:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ngJtXufVDbWvfkGLmeP9SOhuepAqyoukcWHTtazG9x8="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/product/5bcea70a-0d7f-4b05-9821-1ca3b280fcad.amofzobb19.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp.MVC\\JuanApp\\JuanApp\\wwwroot\\assets\\img\\product\\5bcea70a-0d7f-4b05-9821-1ca3b280fcad.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "172497"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ngJtXufVDbWvfkGLmeP9SOhuepAqyoukcWHTtazG9x8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 07:27:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "amofzobb19"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/product/5bcea70a-0d7f-4b05-9821-1ca3b280fcad.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ngJtXufVDbWvfkGLmeP9SOhuepAqyoukcWHTtazG9x8="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/product/5bcea70a-0d7f-4b05-9821-1ca3b280fcad.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp.MVC\\JuanApp\\JuanApp\\wwwroot\\assets\\img\\product\\5bcea70a-0d7f-4b05-9821-1ca3b280fcad.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "172497"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ngJtXufVDbWvfkGLmeP9SOhuepAqyoukcWHTtazG9x8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 07:27:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ngJtXufVDbWvfkGLmeP9SOhuepAqyoukcWHTtazG9x8="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/product/803904d0-3511-4a34-9d0a-11aa2f3d0a94.o663ilehbi.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp.MVC\\JuanApp\\JuanApp\\wwwroot\\assets\\img\\product\\803904d0-3511-4a34-9d0a-11aa2f3d0a94.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47707"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8NdoEzwcVy2CE+wJps3J5RiK85NDbGUtlP4gVt3pGmw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 07:27:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o663ilehbi"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/product/803904d0-3511-4a34-9d0a-11aa2f3d0a94.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8NdoEzwcVy2CE+wJps3J5RiK85NDbGUtlP4gVt3pGmw="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/product/803904d0-3511-4a34-9d0a-11aa2f3d0a94.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\JuanApp.MVC\\JuanApp\\JuanApp\\wwwroot\\assets\\img\\product\\803904d0-3511-4a34-9d0a-11aa2f3d0a94.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47707"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8NdoEzwcVy2CE+wJps3J5RiK85NDbGUtlP4gVt3pGmw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 07:27:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8NdoEzwcVy2CE+wJps3J5RiK85NDbGUtlP4gVt3pGmw="
         }
       ]
     },

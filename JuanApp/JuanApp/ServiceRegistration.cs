@@ -34,6 +34,15 @@ namespace JuanApp
                 options.Lockout.AllowedForNewUsers = true;
             }).AddEntityFrameworkStores<JuanAppContext>().AddDefaultTokenProviders();
 
+            services.AddAuthentication()
+                .AddGoogle(options =>
+                {
+                    options.ClientId = "818604469189-2s882cl3bo0tvi798i2m27v7mto26p78.apps.googleusercontent.com";
+                    options.ClientSecret = "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";
+                    options.SaveTokens = true; 
+                });
+
+
             services.AddControllers()
 .AddJsonOptions(opt =>
 {

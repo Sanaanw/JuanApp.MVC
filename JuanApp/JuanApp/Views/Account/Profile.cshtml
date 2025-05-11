@@ -1,4 +1,7 @@
 ﻿@model UserProfileVm   
+@{
+    var count = 1;
+}
 <!-- main wrapper start -->
 <main>
     <!-- breadcrumb area start -->
@@ -69,11 +72,14 @@
                                     </tr>
                                     </thead>
                                     <tbody>
+                                    @foreach(var order in Model.Orders)
+                                    {
                                                             <tr>
-                                                                <td>1</td>
-                                                                <td>Aug 22, 2018</td>
-                                                                <td>$230</td>
+                                                                <td>@count</td>
+                                                                <td>@order.CreatedDate</td>
+                                                                <td>@order.TotalPrice</td>
                                                             </tr>
+                                    }
                                     </tbody>
                                                 </table>
                                             </div>

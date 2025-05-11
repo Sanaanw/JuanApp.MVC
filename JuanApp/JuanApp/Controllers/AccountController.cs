@@ -3,11 +3,13 @@ using JuanApp.Models;
 using JuanApp.Services;
 using JuanApp.Settings;
 using JuanApp.ViewModels;
+using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using System.Runtime.InteropServices;
+using System.Security.Claims;
 
 namespace JuanApp.Controllers
 {
@@ -68,7 +70,7 @@ namespace JuanApp.Controllers
         }
         public IActionResult Login()
         {
-            return View();  
+            return View();
         }
         [HttpPost]
         public async Task<IActionResult> Login(UserLoginVm userLoginVm, string returnUrl)
@@ -187,7 +189,7 @@ namespace JuanApp.Controllers
         }
 
         //Profile
-        [Authorize(Roles = "Member" )]
+        [Authorize(Roles = "Member")]
         public async Task<IActionResult> Profile(string tab = "Dashboard")
         {
             ViewBag.tab = tab;
@@ -203,6 +205,9 @@ namespace JuanApp.Controllers
             var userProfileVm = new UserProfileVm
             {
                 UserUpdateProfileVm = userUpdateProfileVm,
+                Orders = context.Order
+                    .Where(o => o.AppUserId == user.Id)
+                    .ToList()
             };
             return View(userProfileVm);
         }
@@ -217,9 +222,9 @@ namespace JuanApp.Controllers
             UserProfileVm userProfileVm = new UserProfileVm
             {
                 UserUpdateProfileVm = userUpdateProfileVm,
-                Orders=context.Order
-               .Where(o => o.AppUserId == user.Id)
-               .ToList()
+                Orders = context.Order
+                    .Where(o => o.AppUserId == user.Id)
+                    .ToList()
             };
 
 
@@ -271,7 +276,7 @@ namespace JuanApp.Controllers
             if (user == null)
                 return NotFound();
             ViewBag.IsSubscribed = user.IsSubcribed;
-            user.IsSubcribed=!user.IsSubcribed;
+            user.IsSubcribed = !user.IsSubcribed;
             var result = await userManager.UpdateAsync(user);
             if (!result.Succeeded)
             {
@@ -279,7 +284,34 @@ namespace JuanApp.Controllers
                 ModelState.AddModelError("", "Something went wrong while updating subscription status.");
                 return View();
             }
-            return RedirectToAction("Index" , "Home" );
+            return RedirectToAction("Index", "Home");
         }
-    } 
+        public async Task<IActionResult> GoogleLogin()
+        {
+            var redirectUrl = Url.Action("GoogleResponse", "Account");
+            var properties = signInManager.ConfigureExternalAuthenticationProperties(GoogleDefaults.AuthenticationScheme, redirectUrl);
+            return new ChallengeResult(GoogleDefaults.AuthenticationScheme, properties);
+        }
+        public async Task<IActionResult> GoogleResponse()
+        {
+            var result = signInManager.GetExternalLoginInfoAsync().Result;
+            var email = result.Principal.FindFirstValue(ClaimTypes.Email);
+            
+            var user = await userManager.FindByEmailAsync(email);
+            if (user == null)
+            {
+                user = new AppUser
+                {
+                    Email = email,
+                    UserName = email,
+                    FullName = result.Principal.FindFirstValue(ClaimTypes.Name)
+                };
+               userManager.CreateAsync(user).Wait();
+               userManager.AddToRoleAsync(user, "Member").Wait();
+                signInManager.SignInAsync(user, true).Wait();
+
+            }
+            return RedirectToAction("Index", "Home");
+        }
+    }
 }
