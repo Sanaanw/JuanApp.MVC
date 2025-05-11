@@ -1,4 +1,4 @@
-﻿@*  @model ShopVm
+﻿ @model ShopVm
 <!-- main wrapper start -->
 <main>
     <!-- breadcrumb area start -->
@@ -11,7 +11,6 @@
                             <h1 class="breadcrumb-title">shop</h1>
                             <ul class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">shop no sidebar 3 col</li>
                             </ul>
                         </nav>
                     </div>
@@ -40,18 +39,117 @@
                                 </div>
                                 <div class="col-xl-7 col-lg-8 col-md-9 order-1 order-md-2">
                                     <div class="top-bar-right">
-                                        <div class="product-short">
-                                            <p>Sort By : </p>
-                                            <select class="nice-select" name="sortby">
-                                                <option value="trending">Relevance</option>
-                                                <option value="sales">Name (A - Z)</option>
-                                                <option value="sales">Name (Z - A)</option>
-                                                <option value="rating">Price (Low &gt; High)</option>
-                                                <option value="date">Rating (Lowest)</option>
-                                                <option value="price-asc">Model (A - Z)</option>
-                                                <option value="price-asc">Model (Z - A)</option>
-                                            </select>
+                                        <form method="get">
+                                            <div class="product-short">
+                                                <p>Sort By : </p>
+                                                <select onchange="this.form.submit()" name="sort" asp-items="ViewBag.SelectOptions" class="nice-select">
+                                                </select>
+                                            </div>
+                                        </form>
+                                        <div class="product-amount">
+                                            <p>Showing 1–16 of 21 results</p>
                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- shop product top wrap start -->
+                        <!-- product item list start -->
+                        <div class="shop-product-wrap grid-view row mbn-50">
+                            @foreach(var shopItem in Model.Products)
+                            {
+                                <div class="col-lg-4 col-sm-6">
+                                    <!-- product grid item start -->
+                                    <div class="product-item mb-53">
+                                        <div class="product-thumb">
+                                            <a href="product-details.html">
+                                                <img src="~/assets/img/product/@shopItem.ProductImages.FirstOrDefault(x=>x.Status==true).Name" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="product-content">
+                                            <h5 class="product-name">
+                                                <a href="product-details.html">@shopItem.Name</a>
+                                            </h5>
+                                            <div class="price-box">
+                                                <span class="price-regular">$@shopItem.Price</span>
+                                            </div>
+                                            <div class="product-action-link">
+                                                <a href="#" data-toggle="tooltip" title="Wishlist"><i class="ion-android-favorite-outline"></i></a>
+                                                <a href="#" data-toggle="tooltip" title="Add To Cart"><i class="ion-bag"></i></a>
+                                                <a href="#" data-toggle="modal" data-target="#quick_view">
+                                                    <span data-toggle="tooltip"
+                                                          title="Quick View"><i class="ion-ios-eye-outline"></i></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- product grid item end -->
+                                </div>
+                            }
+                            <!-- product item list end -->
+
+                        </div>
+                    </div>
+                    <!-- shop main wrapper end -->
+                </div>
+            </div>
+        </div>
+        <!-- page main wrapper end -->
+</main>
+<!-- main wrapper end -->
+
+
+
+
+
+
+<!-- main wrapper start -->
+<main>
+    <!-- breadcrumb area start -->
+    <div class="breadcrumb-area bg-img" data-bg="assets/img/banner/breadcrumb-banner.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcrumb-wrap text-center">
+                        <nav aria-label="breadcrumb">
+                            <h1 class="breadcrumb-title">shop</h1>
+                            <ul class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- breadcrumb area end -->
+    <!-- page main wrapper start -->
+    <div class="shop-main-wrapper section-padding">
+        <div class="container">
+            <div class="row">
+                <!-- shop main wrapper start -->
+                <div class="col-12">
+                    <div class="shop-product-wrapper">
+                        <!-- shop product top wrap start -->
+                        <div class="shop-top-bar">
+                            <div class="row">
+                                <div class="col-xl-5 col-lg-4 col-md-3 order-2 order-md-1">
+                                    <div class="top-bar-left">
+                                        <div class="product-view-mode">
+                                            <a  href="#" data-target="grid-view"><i class="fa fa-th"></i></a>
+                                            <a class="active" href="#" data-target="list-view"><i class="fa fa-list"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-7 col-lg-8 col-md-9 order-1 order-md-2">
+                                    <div class="top-bar-right">
+                                        <form method="get" >
+                                            <div class="product-short">
+                                                <p>Sort By : </p>
+                                                <select onchange="this.form.submit()" name="sort" asp-items="ViewBag.SelectOptions" class="nice-select" name="sortby">
+                                                </select>
+                                            </div>
+                                        </form>
                                         <div class="product-amount">
                                             <p>Showing 1–16 of 21 results</p>
                                         </div>
@@ -69,7 +167,7 @@
                                     <div class="product-list-item mb-30">
                                         <div class="product-thumb">
                                             <a href="product-details.html">
-                                                <img src="~/assets/img/product/@shopItem.ProductImages.FirstOrDefault(x=>x.Status==null).Name" alt="product thumb">
+                                                <img src="~/assets/img/product/@shopItem.ProductImages.FirstOrDefault(x=>x.Status==true).Name" alt="product thumb">
                                             </a>
                                         </div>
                                         <div class="product-content-list">
@@ -105,4 +203,4 @@
         </div>
         <!-- page main wrapper end -->
 </main>
-<!-- main wrapper end --> *@
+<!-- main wrapper end -->
